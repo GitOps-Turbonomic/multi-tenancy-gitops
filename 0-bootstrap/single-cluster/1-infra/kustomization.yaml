@@ -36,6 +36,7 @@ resources:
 #- argocd/storage.yaml
 #- argocd/infraconfig.yaml
 #- argocd/machinesets.yaml
+- argocd/namespace-turbonomic.yaml
 patches:
 - target:
     group: argoproj.io
