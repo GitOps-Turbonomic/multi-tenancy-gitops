@@ -111,7 +111,7 @@ resources:
 #- argocd/instances/baas-instance.yaml
 
 # Turbonomic
-- argocd/operators/turbonomic.yaml
+# - argocd/operators/turbonomic.yaml
 
 patches:
 - target:
