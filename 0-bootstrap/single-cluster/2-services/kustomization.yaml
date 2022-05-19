@@ -110,6 +110,9 @@ resources:
 #- argocd/instances/oadp-instance.yaml
 #- argocd/instances/baas-instance.yaml
 
+# Turbonomic
+- argocd/operators/turbonomic
+
 patches:
 - target:
     group: argoproj.io
